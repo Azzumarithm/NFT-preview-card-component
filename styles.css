@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    background-color: rgba(0, 8, 36, 0.934);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.nft-image{
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+    
+}
+
+#ethereum{
+    display: flex;
+    align-items: center; 
+    
+}
+
+.value-ethereum{
+    color: aqua;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-left: 5px;
+    
+}
+
+#time{
+    display: flex;
+    align-items: center;
+    margin-left: 95px;
+    
+    
+}
+
+.value-time{
+    color: rgba(203, 218, 255, 0.598);
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+.ethereum-time{
+    display: flex;
+    
+    
+}
+
+.nft-container{
+    background-color: rgba(22, 44, 71, 0.89);
+    width: 280px;
+    height: 520px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 6px 10px 18px rgba(0, 0, 0, 0.571);
+    
+    
+
+}
+
+.title {
+    
+    font-size: 19px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: white ;
+
+    
+
+}
+
+.description{
+    
+    font-size: 15px;
+    color: rgba(203, 218, 255, 0.598);
+    font-family: 'Roboto', sans-serif;
+
+
+    
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgba(203, 218, 255, 0.137);
+}
+
+
+.logo{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    
+
+}
+
+#creation{
+    display: flex;
+    
+}
+
+.creation-value{
+    margin-left: 16px;
+    color: rgba(203, 218, 255, 0.598);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+span{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
